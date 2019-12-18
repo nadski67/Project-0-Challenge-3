@@ -1,7 +1,7 @@
 Hello there!
 =================
 
-This website is made by Douwe Raat, Jacques Lamé, Quinten de Leeuw en Jared Willemsen
+This website is made by Finlay Davidson, Jacques Lamé en Nadine Baylon
 
 The website is made for a school project.
 
