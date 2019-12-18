@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  font-family: Comic sans MS;
+  background-color: papayawhip;
+  color: black;
+  margin-bottom:40px;
+}
+
+header{
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #166399;
+  left:5%;
+}
+img{
+ height:auto;
+ width:100%;
+}
+
+nav{
+  display: inline-block;
+  border: 3px solid black;
+  width: 90%;
+  left: 5%;
+  list-style-type: none;
+  background: #10B925;
+  padding: 0 10px;
+  position: absolute;
+}
+nav{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+article{
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer {
+  border: 3px solid black;
+  background: #10B925;
+  position: fixed;
+  bottom: 0;
+  height:auto;
+  width: 90%;
+  left: 5%;
+  text-align: center;
+  font-weight:bold;
+}
+
+
+ul.linklijst {
+  text-align: center;
+  height:auto;
+  width:100%;
+}
+
+ul.linklijst li.linklijst {
+  padding: 5px;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul li a:hover {
+ background-color: green;
+ transition:0.3s;
+ padding:5px 4px;
+}
+/*#17C62D*/
+
+img.logo {
+  height:auto;
+  width:75px;
+  position:absolute;
+  top: 1%;
+  left: 5%;
+}
+
+.main_showing{
+  width:40%;
+  height: auto;
+}
+
+
+.row1 {
+  display: grid;
+  grid-template-rows:auto auto;
+  grid-gap: 6px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row_main {
+  display: grid;
+  grid-template-rows:auto auto;
+  grid-gap: 6px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text{
+  background-color:#FFDEA8;
+  height: 96%;
+  width: 90%;
+  border: 2px solid black;
+  }
+
+button.offerte {
+  background: #10B925;
+  border: 3px solid black;
+  border-radius: 4px 4px 4px 4px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  right: 5%;
+  top: 1%;
+}
+
+button.offerte, a.offerte {
+  color: black;
+  text-decoration: none;
+}
+
+input.input {
+  border: none;
+  background: #f1f1f1;
+}
+
+input.input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input.checkbox {
+  background: #f1f1f1;
+  width: 25px;
+  height: 25px;
+}
+
+select {
+  border: none;
+  background: #f1f1f1;
+}
+
+select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input.verzenden {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+li.inputs {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+li.voorwaardenli {
+  margin-bottom: 25px;
+}
+
+img.youtube {
+  margin-left: 5%;
+  margin-right:3%;
+  height:auto;
+  width:9%;
+}
+
+img.facebook {
+  margin-left: 5%;
+  margin-right:3%;
+  height:auto;
+  width:9%;
+}
+
+img.insta {
+  margin-left: 5%;
+  margin-right:3%;
+  height:auto;
+  width:9%;
+}
+
+.dingendiejekuntdoen {
+  text-align: left;
+}
+
+section {
+  border: 3px solid black;
+  border-radius: 20px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: #4ea04c;
+}
+
+.schuin {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 720px){
+  body{
+    margin-bottom:60px;
+  }
+  
+  ul li {
+    font-size: 10px;
+  }
+  
+  img.logo {
+    height:auto;
+    width:60px;
+    position:absolute;
+    top: 1%;
+    left: 1%;
+  }
+  button.offerte {
+    background: #10B925;
+    border: 3px solid black;
+    border-radius: 4px 4px 4px 4px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+  }
+  h1.titel {
+    color: papayawhip;
+  }
+  li.inputs {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  input.verzenden {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #555;
+    position: static;
+  }
+  .row_main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-areas: "foto1 text1 
+                          "foto2 text2 
+                          "foto3 text3"
+                         "foto4 text4 
+                          "foto5 text5 
+                          "foto6 text6";
+  }
+  .main_showing{
+    width:200px;
+    height:auto;
+    margin-bottom:5px;
+  }
+  footer{
+    font-size:12px;
+  }
+  
+  img.youtube {
+  margin-left: 5%;
+  margin-right:3%;
+  height:auto;
+  width:30%;
+  }
+
+  img.facebook {
+    margin-left: 5%;
+    margin-right:3%;
+    height:auto;
+    width:30%;
+  }
+
+  img.insta {
+    margin-left: 5%;
+    margin-right:3%;
+    height:auto;
+    width:30%;
+  }
+  
+  span {
+    display: none;
+  }
+}
+@media only screen and (max-width: 320px){ 
+  
+}
+/* kleure scheeeemea #166399 (blauwe)  #10B925 (grreoeoeoeon)
