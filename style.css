@@ -5,7 +5,7 @@
 
 body {
   font-family: Comic sans MS;
-  background-color: papayawhip;
+  background-color: #d9f0ff;
   color: black;
   margin-bottom:40px;
 }
@@ -14,7 +14,7 @@ header{
   padding-top: 10px;
   text-align: center;
   padding-bottom: 20px;
-  color: #166399;
+  color: #08415C;
   left:5%;
 }
 img{
@@ -28,7 +28,7 @@ nav{
   width: 90%;
   left: 5%;
   list-style-type: none;
-  background: #10B925;
+  background: #53599a;
   padding: 0 10px;
   position: absolute;
 }
@@ -46,7 +46,7 @@ article{
 
 footer {
   border: 3px solid black;
-  background: #10B925;
+  background: #53599a;
   position: fixed;
   bottom: 0;
   height:auto;
@@ -120,23 +120,6 @@ img.logo {
   border: 2px solid black;
   }
 
-button.offerte {
-  background: #10B925;
-  border: 3px solid black;
-  border-radius: 4px 4px 4px 4px;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  position: absolute;
-  right: 5%;
-  top: 1%;
-}
-
-button.offerte, a.offerte {
-  color: black;
-  text-decoration: none;
-}
 
 input.input {
   border: none;
@@ -230,29 +213,17 @@ section {
   body{
     margin-bottom:60px;
   }
-  
+
   ul li {
     font-size: 10px;
   }
-  
+
   img.logo {
     height:auto;
     width:60px;
     position:absolute;
     top: 1%;
     left: 1%;
-  }
-  button.offerte {
-    background: #10B925;
-    border: 3px solid black;
-    border-radius: 4px 4px 4px 4px;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    position: absolute;
-    right: 1%;
-    top: 1%;
   }
   h1.titel {
     color: papayawhip;
@@ -276,11 +247,11 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-    grid-template-areas: "foto1 text1 
-                          "foto2 text2 
+    grid-template-areas: "foto1 text1
+                          "foto2 text2
                           "foto3 text3"
-                         "foto4 text4 
-                          "foto5 text5 
+                         "foto4 text4
+                          "foto5 text5
                           "foto6 text6";
   }
   .main_showing{
@@ -291,7 +262,7 @@ section {
   footer{
     font-size:12px;
   }
-  
+
   img.youtube {
   margin-left: 5%;
   margin-right:3%;
@@ -312,12 +283,12 @@ section {
     height:auto;
     width:30%;
   }
-  
+
   span {
     display: none;
   }
 }
-@media only screen and (max-width: 320px){ 
-  
+@media only screen and (max-width: 320px){
+
 }
-/* kleure scheeeemea #166399 (blauwe)  #10B925 (grreoeoeoeon)
+/* kleure scheeeemea #166399 (blauwe)  #10B925 (grreoeoeoeon)*/
